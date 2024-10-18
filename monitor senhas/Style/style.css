@@ -1,0 +1,147 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+.fundo-de-tudo{
+    display: flex;
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+}
+.fundo-azul-lateral{
+    width: 525px;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(21, 26, 66);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fundo-azul-lateral h1{
+    width: 70%;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 60px;
+    margin-top: -100px;
+}
+.fe{
+    display: flex;
+    width: 475px;
+    height: 725px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #F9F9F9;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.fe-c{
+    display: flex;
+    width: 450px;
+    height: 120px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: rgba(51, 64, 77,0.15);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fe-c h2{
+    display: flex;
+    font-size: 30px;
+}
+.conjunto{
+    display: flex;
+    background-color: blueviolet;
+    width: 100%;
+    justify-content: center;
+}
+.senh{
+    display: flex;
+    color: rgb(255, 0, 0);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.senh h3{
+    display: flex;
+    font-size: 30px;
+}
+.senh h4{
+    display: flex;
+    font-size: 40px;
+}
+.guic{
+    display: flex;
+    color: rgb(255, 254, 254);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.guic h5{
+    display: flex;
+    font-size: 30px;
+}
+.guic h6{
+    display: flex;
+    font-size: 40px;
+}
+
+
+
+
+
+
+.fundo-senha-principal2 {
+    width: 70%;
+    height: 725px;
+    background-color: rgba(51,64,77,0.20);
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.fe-1 h1{
+    padding: 50px;
+    font-size: 70px;
+    text-align: center;
+}
+.fe-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.fe-2 h2 {
+    display: flex;
+    font-size: 100px;
+    justify-content: space-between;
+    margin: 20px 150px 20px 150px;
+    background-color: blue;
+}
+.fe-2 span{
+    background-color: rgb(14, 14, 14);
+    width: 400px;
+    text-align: center;
+}
+/* .conjunto-a{
+    display: flex;
+    background-color: rgb(255, 137, 137);
+}
+.senhe{
+    display: flex;
+}
+.guice{
+    display: flex;
+}*/
