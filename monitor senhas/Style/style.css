@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
 }
-a{
+:root{
+    --cor-letras-1: rgba(51, 64, 77, 1);
+}
+.a{
     text-decoration: none;
 }
 
@@ -18,10 +21,10 @@ a{
     background-color: rgb(249, 249, 249);
 }
 .fundo-azul-lateral{
-    width: 525px;
+    width: 490px;
     height: 100vh;
     display: flex;
-    background-color: rgb(21, 26, 66);
+    background-color: rgba(51, 64, 77, 1);
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -30,13 +33,13 @@ a{
     width: 70%;
     text-align: center;
     color: white;
-    margin-bottom: 50px;
-    font-size: 60px;
-    margin-top: -100px;
+    font-size: 55px;
+    margin-top: -130px;
+    margin-bottom: 30px;
 }
-.fe{
+.area-das-senhas{
     display: flex;
-    width: 475px;
+    width: 455px;
     height: 725px;
     align-items: center;
     flex-direction: column;
@@ -46,56 +49,58 @@ a{
     margin-left: 15px;
     margin-right: 15px;
 }
-.fe-c{
+.caixa-das-senhas{
     display: flex;
-    width: 450px;
-    height: 120px;
+    width: 430px;
+    height: 135px;
     align-items: center;
     flex-direction: column;
-    border-radius: 5px;
     background-color: rgba(51, 64, 77,0.15);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
 }
-.fe-c h2{
+.caixa-das-senhas h2{
     display: flex;
-    font-size: 30px;
+    font-size: 35px;
+    margin-top: 5px;
 }
-.conjunto{
+.conjunto-senhas{
     display: flex;
-    background-color: blueviolet;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
+
 }
-.senh{
+.senha{
     display: flex;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+    margin-left: 30px;
 }
-.senh h3{
+.senha h3{
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
+    padding: 5px;
 }
-.senh h4{
+.senha h4{
     display: flex;
     font-size: 40px;
 }
-.guic{
+.guiche{
     display: flex;
-    color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-right: 60px;
 }
-.guic h5{
+.guiche h5{
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
+    padding: 5px;
 }
-.guic h6{
+.guiche h6{
     display: flex;
     font-size: 40px;
 }
@@ -109,29 +114,27 @@ a{
     width: 70%;
     height: 725px;
     background-color: rgba(51,64,77,0.20);
-    margin-top: 90px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 5px;
 }
 .fe-1 h1{
-    padding: 50px;
+    padding: 40px;
     font-size: 70px;
     text-align: center;
 }
 .fe-2 {
     display: flex;
     flex-direction: column;
-    background-color: red;
 }
 .fe-2 h2 {
     display: flex;
-    font-size: 100px;
+    font-size: 95px;
     justify-content: space-between;
     margin: 20px 150px 20px 150px;
-    background-color: blue;
 }
 .fe-2 span{
-    background-color: rgb(14, 14, 14);
     width: 400px;
     text-align: center;
 }
