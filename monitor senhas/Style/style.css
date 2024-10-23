@@ -2,14 +2,13 @@
     --cor-azul-escuro--1: rgba(51, 64, 77, 1);
     --cor-azul-escuro--0_10: rgba(51, 64, 77, 0.10);
     --cor-cinza--1: rgb(240, 240, 240,1);
+    --font-main: Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 *{
     margin: 0;
     padding: 0;
     font-family: Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
-.a{
-    text-decoration: none;
 }
 
 
@@ -26,12 +25,11 @@
     background-size: 35vh;
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
-    align-items: start;
     justify-content: top;
     overflow: hidden;
+    
 }
 .fundo-azul-lateral{
     width: 490px;
@@ -41,6 +39,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 .fundo-azul-lateral h1{
     width: 70%;
@@ -49,6 +48,7 @@
     font-size: 55px;
     margin-top: -130px;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 .area-das-senhas{
     display: flex;
@@ -78,6 +78,7 @@
     font-size: 35px;
     margin-top: 5px;
     color: var(--cor-azul-escuro--1);
+    font-weight: 800;
 }
 .conjunto-senhas{
     display: flex;
@@ -96,10 +97,12 @@
     display: flex;
     font-size: 25px;
     padding: 5px;
+    font-weight: 800;
 }
 .senha h4{
     display: flex;
     font-size: 40px;
+    font-weight: 800;
 }
 .guiche{
     display: flex;
@@ -108,15 +111,18 @@
     justify-content: center;
     flex-direction: column;
     margin-right: 60px;
+    
 }
 .guiche h5{
     display: flex;
     font-size: 25px;
     padding: 5px;
+    font-weight: 800;
 }
 .guiche h6{
     display: flex;
     font-size: 40px;
+    font-weight: 800;
 }
 
 
@@ -124,7 +130,7 @@
 
 
 
-.fundo-senha-principal2 {
+.fundo-senha-principal {
     width: 70%;
     height: 725px;
     background-color: var(--cor-azul-escuro--0_10);
@@ -132,36 +138,28 @@
     margin-left: 70px;
     margin-right: 70px;
     border-radius: 5px;
-    margin-top: 190px;
 }
-.fe-1 h1{
+.nome-pessoa h1{
     padding: 40px;
     font-size: 70px;
     text-align: center;
     color: var(--cor-azul-escuro--1);
+    font-weight: 800;
 }
-.fe-2 {
+.infos-senha-principal {
     display: flex;
     flex-direction: column;
 }
-.fe-2 h2 {
+.infos-senha-principal h2 {
     display: flex;
-    font-size: 95px;
+    font-size: 100px;
     justify-content: space-between;
     margin: 20px 150px 20px 150px;
     color: var(--cor-azul-escuro--1);
+    font-weight: 800;
 }
-.fe-2 span{
+.infos-senha-principal span{
     width: 400px;
     text-align: center;
+    font-weight: 800;
 }
-/* .conjunto-a{
-    display: flex;
-    background-color: rgb(255, 137, 137);
-}
-.senhe{
-    display: flex;
-}
-.guice{
-    display: flex;
-}*/
